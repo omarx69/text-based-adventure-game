@@ -38,7 +38,7 @@ if answer == "yes":
                 print("You didn't get anything!, You lose! :(")
 
         elif answer == "kill":
-            answer = input("Good, the guard is dead. loot his items or leave [loot/leave] : ")
+            answer = input("Good, the guard is dead. Are you want to loot his items or leave [loot/leave] : ")
             if answer == "loot":
                 print("you picked up an armor and sword")
                 print()
